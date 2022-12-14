@@ -13,10 +13,10 @@ body{
 }
 .header__figure{
     display: flex;
-    border: 1px solid rgb(181, 177, 177);
     background-color: #5a5858;
     height: 70px;
-    border-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
 }
 .header__figure:hover{
     cursor: pointer;
@@ -42,6 +42,7 @@ body{
 .main__container{
     display: flex;
     justify-content: center;
+    background-color: rgb(180, 176, 176);
 }
 .main__section{
     margin-top: 35px;
@@ -53,7 +54,6 @@ body{
     width: 18rem;
     border-radius: 10px;
     background-color: white;
-    color: black;
     margin-left: 80px;
     height: 50px;
 }
@@ -106,4 +106,37 @@ td{
 }
 .main__paragraph{
     font-weight: 700;
+}
+
+.footer__figure{
+    display: flex;
+    background-color: white;
+    height: 150px;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.footer__span{
+    padding-top: 65px;
+    padding-left: 850px;
+    color: gray;
+    font-weight: 700;
+    font-size: px;
+}
+
+.footer__image{
+    /* display: inline-block; */
+    filter: grayscale(1);
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: gray;
+    border-radius: 0.8rem;
+}
+
+.footer__image:hover{
+    filter: grayscale(0);
+    transition: 0.5s;
+    cursor: pointer;
 }
